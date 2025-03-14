@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This repo was just made to apply concepts of Node.JS and learn it effectively.",
+  "main": "math.js",
+  "dependencies": {
+    "figlet": "^1.8.0",
+    "random": "^5.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahaa01/NodeJS.git"
+  },
+  "author": "Aaditya Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahaa01/NodeJS/issues"
+  },
+  "homepage": "https://github.com/shahaa01/NodeJS#readme",
+  "type": "module"
+}
