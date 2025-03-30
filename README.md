@@ -1,21 +1,37 @@
-# Express.js Fundamentals
+# Node.js Fundamentals
 
 ## 📚 Overview
-This repository documents my in-depth learning and hands-on application of **Express.js**, a Node.js framework for building web applications and APIs. It covers the core concepts and practical techniques required for efficient backend development.
+This repository documents my in-depth learning and hands-on application of **Node.js**, a powerful JavaScript runtime built on Chrome's V8 engine. It covers core concepts, file operations, process handling, and module management, providing a solid foundation for backend development.
 
 ## 🚀 **Topics Covered**
-- **What is Express?**: Introduction to the Express.js framework and its benefits.
-- **Getting Started with Express:** Setting up an Express server and configuring basic middleware.
-- **Handling Requests:** Managing client requests using `req` and `res` objects.
-- **Sending a Response:** Sending JSON, text, and HTML responses to client requests.
-- **Routing:** Defining routes with `app.get()`, `app.post()`, and handling multiple routes.
-- **Installing Nodemon:** Using Nodemon for automatic server restarts during development.
-- **Path Parameters:** Extracting dynamic values from the URL using `req.params`.
-- **Query Strings:** Handling URL parameters with `req.query`.
+- **Node REPL:** 
+  - Used the **Read-Eval-Print Loop (REPL)** to interactively run JavaScript code directly in the terminal.
+  - Executed basic commands and experimented with **variables, functions, and objects**.
+- **Node Files:** 
+  - Worked with **file system operations** to read, write, and append data to files.
+  - Practiced asynchronous and synchronous file handling using `fs` module.
+- **Process in Node:**
+  - Explored the `process` object to access environment variables, arguments, and manage the **current runtime environment**.
+  - Used `process.argv` to handle **command-line arguments**.
+- **Export in Files:** 
+  - Learned how to export individual functions, objects, or variables from a **single file** using `module.exports`.
+- **Export in Directories:** 
+  - Organized multiple modules by exporting them collectively from **directory-based modules**.
+- **What is NPM:** 
+  - Understood the **Node Package Manager (NPM)** and its role in managing project dependencies.
+- **Installing Packages:** 
+  - Installed third-party packages using `npm install` and experimented with both **local and global installations**.
+- **package.json:** 
+  - Learned how to initialize a `package.json` file and manage project metadata.
+  - Explored adding dependencies, scripts, and versioning.
+- **Local vs Global Installation:** 
+  - Differentiated between **local and global package installations**.
+  - Used local installations for project-specific dependencies and global for reusable tools.
+- **Import Modules:** 
+  - Imported both **core and custom modules** into Node.js applications using `require()`.
 
 ## 🔥 **Key Takeaways**
-- Gained practical experience in **creating and managing RESTful routes**.
-- Learned how to efficiently handle **dynamic parameters and query strings**.
-- Improved development workflow by using **Nodemon** for automatic server restarts.
-- Mastered **request and response handling** in Express.js.
-
+- Gained practical experience in **file system operations** and process management.
+- Mastered **module exports and imports**, enhancing code reusability.
+- Learned how to use **NPM** to install, manage, and track project dependencies.
+- Worked with **local and global installations** for efficient package management.
